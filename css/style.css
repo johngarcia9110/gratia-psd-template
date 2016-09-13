@@ -1,0 +1,37 @@
+/* Style.css */
+
+.ctext{
+    font-family: 'Crimson Text', serif;
+}
+
+/* --- Header --- */
+.top-bar{
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.logo{
+    font-family: Montserrat, arial;
+    font-weight: Bold;
+    color: #FFF;
+}
+
+.top-bar, .top-bar ul {
+    background-color: transparent;
+}
+.top-bar, .top-bar ul li a{
+    color: #FFF;
+}
+
+
+
+/* --- Jumbotron --- */
+
+#jumbo{
+    background-color: #151b29;
+    min-height: 900px;
+    display: block;
+    width: 100%;
+}
