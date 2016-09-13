@@ -23,6 +23,7 @@
 }
 .top-bar, .top-bar ul li a{
     color: #FFF;
+    font-family: Montserrat, arial;
 }
 
 
@@ -34,4 +35,17 @@
     min-height: 900px;
     display: block;
     width: 100%;
+}
+.s-slider{
+      top: 100px;
+}
+
+.s-item{
+    height: 600px;
+}
+
+.s-slider img{
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
 }
