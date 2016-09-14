@@ -48,6 +48,7 @@
     background: transparent;
     color: #d89b64;
     border: 1px solid #394156;
+    font-weight: bold ;
 }
 
 .g-button:hover{
@@ -117,6 +118,17 @@
 
 .overlay{
     background-color: rgba(21, 27, 41, 0.72);
+}
+
+.section-bottom-text{
+    color: #d89b64;
+    text-align: center;
+    padding-top: 80px;
+}
+.section-bottom-text hr{
+    border-bottom: 2px solid #d89b64;
+    max-width: 300px;
+    margin-bottom: 80px;
 }
 
 /* --- DETAILS --- */
