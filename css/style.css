@@ -2,6 +2,7 @@
 
 .ctext{
     font-family: 'Crimson Text', serif;
+    font-style: italic;
 }
 
 /* --- Header --- */
@@ -48,4 +49,23 @@
     max-width: 600px;
     display: block;
     margin: 0 auto;
+}
+
+.below-slider{
+    color: #394156;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.g-button{
+    background: transparent;
+    color: #d89b64;
+    border: 1px solid #394156;
+}
+
+#j-button{
+    position: absolute;
+    top: 0;
+    right: 0;
 }
