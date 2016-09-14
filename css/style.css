@@ -54,8 +54,10 @@
 .below-slider{
     color: #394156;
     text-align: center;
-    position: relative;
+    position: absolute;
     z-index: 1;
+    bottom: 0;
+    left: 0;
 }
 
 .g-button{
@@ -88,6 +90,17 @@
     margin-top: 40px;
     position: relative;
 }
+#smoothie{
+    margin-top: 0;
+}
+
+#mid-text-container{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px;
+}
 
 .text-container{
    position: absolute; 
@@ -112,4 +125,26 @@
 
 #details{
     background: url(../img/details.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+.details-text{
+    background-color: #FFF;
+    padding: 40px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.details-wrapper{
+    border: .5px solid #d6d6d6;
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.details-wrapper p{
+    margin-bottom: 40px;
 }
