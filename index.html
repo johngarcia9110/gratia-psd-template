@@ -45,6 +45,11 @@
                     <div class="s-item"><img src="img/jumbotron-img.png"></img></div>
                     <div class="s-item"><img src="img/jumbotron-img.png"></img></div>
                 </div>
+                <div class="slider-nav">
+                    <div class="s-nav-item">01</div>
+                    <div class="s-nav-item">02</div>
+                    <div class="s-nav-item">03</div>
+                </div>
             </div>
         </div>
         <div class="containter below-slider">
@@ -109,7 +114,7 @@
                 <div class="details-wrapper">
                     <h2>DETAILS</h2>
                     <p class="ctext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
-                    <a class="button light-button" href="#">PREPARATIONS OF OUR DISHES</a>
+                    <a class="button g-button" id="details-btn" href="#">PREPARATIONS OF OUR DISHES</a>
                 </div>
             </div>
         </div>
@@ -123,21 +128,21 @@
                 <div class="small-12 medium-4 columns">
                     <div class="how-text-container">
                         <h3>DIFFERENT LOCATIONS</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        <p class="ctext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                         sed diam.</p>
                     </div>
                 </div>
                 <div class="small-12 medium-4 columns" id="how-center">
                     <div class="how-text-container">
                         <h3>FRESH PRODUCTS</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        <p class="ctext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                         sed diam.</p>
                     </div>
                 </div>
                 <div class="small-12 medium-4 columns">
                     <div class="how-text-container">
-                        <h3>THE BEST FROM THE BEGINNING</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                        <h3>THE BEST FROM THE START</h3>
+                        <p class="ctext">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                         sed diam.</p>
                     </div>
                     
@@ -147,7 +152,14 @@
 
     
     <footer>
-        <strong>Gratia Restaurant</strong>
+        <div class="row">
+            <div class="small-12 columns">
+                <a class="footer-link"><img src="img/gratia-logo.png" id="footer-logo"></img></a>
+                <p><strong>Gratia Restaurant</strong></p>   
+                <p class="ctext">CopyRight 2016. All Rights Reserved.</p>
+                <p class="ctext">Designed by symu - HTML/CSS By John Garcia</p>
+            </div>
+        </div>
     </footer>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
@@ -155,9 +167,19 @@
     <script>
         $(document).foundation();
         $('.s-slider').slick({
-            dots: true,
-            infinite: false
+            dots: false,
+            infinite: true,
+            asNavFor: '.slider-nav'
         });
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            infinite: false,
+            dots: false,
+            slidesToScroll: 1,
+            focusOnSelect: true,
+            asNavFor: '.s-slider'
+        });
+        
     </script>
     
 </body>
