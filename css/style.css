@@ -69,3 +69,47 @@
     top: 0;
     right: 0;
 }
+
+/* Perfection */
+
+#perfection img{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+}
+
+.entry-text{
+    text-align: center;
+    color: #151b29;
+    margin: 40px 0;
+}
+
+.img-container{
+    margin-top: 40px;
+    position: relative;
+}
+
+.text-container{
+   position: absolute; 
+   top: calc(50% - 50px); 
+   left: 0;
+   text-align: center; 
+   max-width: 100%; 
+   padding-left: 20%;
+   padding-right: 20%;
+   color: #FFF;
+}
+
+.text-container h3{
+    color: #d89b64;
+}
+
+.overlay{
+    background-color: rgba(21, 27, 41, 0.72);
+}
+
+/* --- DETAILS --- */
+
+#details{
+    background: url(../img/details.png);
+}
