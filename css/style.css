@@ -36,28 +36,12 @@
     min-height: 900px;
     display: block;
     width: 100%;
-}
-.s-slider{
-      top: 100px;
-}
-
-.s-item{
-    height: 600px;
+    padding-top: 60px;
 }
 
 .s-slider img{
-    max-width: 600px;
-    display: block;
     margin: 0 auto;
-}
-
-.below-slider{
-    color: #394156;
-    text-align: center;
-    position: absolute;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
+    max-width: 800px;
 }
 
 .g-button{
@@ -68,7 +52,7 @@
 
 #j-button{
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
 }
 
