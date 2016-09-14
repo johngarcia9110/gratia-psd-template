@@ -33,7 +33,7 @@
 
 #jumbo{
     background-color: #151b29;
-    min-height: 900px;
+    min-height: 720px;
     display: block;
     width: 100%;
     padding-top: 60px;
@@ -50,10 +50,24 @@
     border: 1px solid #394156;
 }
 
+.g-button:hover{
+    background: #d89b64;
+    color: #151b29;
+}
+
 #j-button{
     position: absolute;
     top: 10px;
     right: 0;
+}
+
+.below-slider-row{
+    position: relative;
+}
+
+.below-slider-row .ctext{
+    color: #FFF;
+    text-align: center;
 }
 
 /* Perfection */
