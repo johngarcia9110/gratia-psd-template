@@ -271,7 +271,7 @@ footer{
 }
 
 .menu-item-wrap{
-    box-shadow: 10px 10px 49px -9px lightgray    
+    box-shadow: 10px 10px 49px -9px lightgray; 
 }
 
 .menu-item{
@@ -285,4 +285,39 @@ footer{
 
 .menu-item hr{
     width: 60px;
+}
+
+/* -- Meal Page -- */
+
+#meal-item{
+    text-align: center;
+}
+
+#meal-item hr{
+    width: 100px;
+}
+
+.components{
+    padding: 40px 0;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.meal-item-header{
+    padding: 30px 0;
+}
+
+.menu-item-description{
+    text-align: left;
+}
+
+.menu-item-price{
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+.menu-item-price .ctext{
+    
 }
