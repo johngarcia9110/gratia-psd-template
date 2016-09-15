@@ -29,6 +29,15 @@
     font-family: Montserrat, arial;
 }
 
+.top-bar-light{
+    background-color: #FFF;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+
+.top-bar-light ul li a, .logo{
+    color: #151b29;
+}
 
 
 /* --- Jumbotron --- */
@@ -250,8 +259,30 @@ footer{
 
 /* -- page-title -- */
 
+.page-title{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
 /* --  Menu Items -- */
+#menu .row{
+    padding-bottom: 40px;
+}
+
+.menu-item-wrap{
+    box-shadow: 10px 10px 49px -9px lightgray    
+}
 
 .menu-item{
+    padding: 10px 20px;
     text-align: center;
+}
+
+.menu-item h3{
+    font-size: 25px;
+}
+
+.menu-item hr{
+    width: 60px;
 }
