@@ -245,3 +245,13 @@ footer{
     top: -35px;
     z-index: -1;
 }
+
+/* --- MENU PAGE --- */
+
+/* -- page-title -- */
+
+/* --  Menu Items -- */
+
+.menu-item{
+    text-align: center;
+}
