@@ -4,7 +4,7 @@ Coding up a design I found on Behance into an HTML, CSS and JavaScript website t
 
 __Link to psd:__ [Here](https://www.behance.net/gallery/35779681/Gratia-Free-PSD-Template)
 
-__DEMO:__ Coming Soon
+__DEMO:__ [Here](https://johngarcia9110.github.io/gratia-psd-template/)
 
 ## Process
 
