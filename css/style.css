@@ -20,6 +20,7 @@
     color: #FFF;
 }
 
+
 .top-bar ul {
     background-color: transparent;
 }
@@ -37,6 +38,10 @@
 
 .top-bar-light ul li a, .logo{
     color: #151b29;
+}
+
+.top-bar-light ul li a, .logo-light{
+    color: #FFF;
 }
 
 
